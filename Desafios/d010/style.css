@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: repeating-linear-gradient(#3CDB83, #2A985B,#315F46);
+    margin: -8px;
+    padding: 5px;
+
+ 
+}
+
+nav {  
+    margin: -5px;
+    padding: 5px;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover {
+    background-color: #84e1ac2d;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+#titulo-principal {
+    font-family: "Bebas Neue", serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'android';
+    color: #1A5C38;
+}
+
+.paragrafo-tituloprincipal {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+}
+
+h2 {
+    background-color: #84e1ac64;
+    font-family: 'android';
+    color: #1A5C38;
+}
+
+
+main {
+    background-color: white;
+    margin: 9px 297px;
+    padding: 14px;
+    
+}
+
+aside {
+    background-color: #84e1aca8;
+    border-radius: 20px;
+    border-top: 53px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #308756ab;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 11px;
+    padding-left: 12px;
+    margin: 30px 9px -9px 9px;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    margin: -8px;
+    font-size: 0.9em;
+}
+
+
+article > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo-video {
+    background-color: #1A5C38;
+    padding: 16px;
+    margin: -14px;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.colorir {
+    color: #17a456;
+    font-weight: bold; 
+}
+
+.negrito {
+    font-weight: bold;
+    
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
